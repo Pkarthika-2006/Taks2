@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  background-color: #f8f4a4;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #fff;
+}
+.input-section {
+  display: flex;
+}
+.input-section input {
+  flex: 1;
+  padding: 0 5px;
+  flex: 1;
+  font-size: 15px;
+}
+.input-section .save-btn {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #e08e45;
+  border: 0;
+  color: #fff;
+}
+.listing-section ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-top: 20px;
+}
+.list-section ul li {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+.list-section ul li span.done {
+  text-decoration: line-through;
+}
+.list-section ul li .close {
+  background-color: #682737;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
